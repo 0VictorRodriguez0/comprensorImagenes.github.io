@@ -31,7 +31,7 @@ input.addEventListener("change", (event) => {
 
             let new_image_url = canvas.toDataURL('image/jpeg', 0.5); 
 
-            const imageName = prompt("Enter a name for the compressed image:", "Compressed_Image");
+            const imageName = prompt("Ingrese un nombre para la imagen comprimida:", "imagen");
 
             if (imageName !== null) {
                 compressedImageLink.href = new_image_url;
